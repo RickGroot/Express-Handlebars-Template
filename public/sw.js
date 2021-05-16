@@ -1,3 +1,4 @@
+// ------------------------------------------------------------------------------------------- Cached assets and version
 const cacheName = 'v1';
 
 const cacheAssets = [
@@ -8,7 +9,7 @@ const cacheAssets = [
 	'/offline',
 ];
 
-// Call Install Event
+// ------------------------------------------------------------------------------------------- Call Install Event
 self.addEventListener('install', e => {
 
 	e.waitUntil(
@@ -22,7 +23,7 @@ self.addEventListener('install', e => {
 	);
 });
 
-// Call Activate Event
+// ------------------------------------------------------------------------------------------- Call Activate Event
 self.addEventListener('activate', e => {
 	e.waitUntil(
 		caches.keys().then(cacheNames => {
@@ -37,7 +38,7 @@ self.addEventListener('activate', e => {
 	);
 });
 
-// Call Fetch event
+// ------------------------------------------------------------------------------------------- Call Fetch event
 self.addEventListener('fetch', e => {
 	e.respondWith(
 		caches

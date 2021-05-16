@@ -1,3 +1,4 @@
+// ------------------------------------------------------------------------------------------- Render functions
 function home(req, res) {
     res.render('home', {
         title: 'Home page of the template'
@@ -16,4 +17,5 @@ function error(req, res) {
     })
 }
 
+// ------------------------------------------------------------------------------------------- Export
 module.exports = {home, offline, error}
