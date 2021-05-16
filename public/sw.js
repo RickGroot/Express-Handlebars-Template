@@ -3,7 +3,7 @@ const cacheName = 'v1';
 const cacheAssets = [
 	'css/index.css',
 	'js/index-min.js',
-	// '/manifest.json',
+	'/manifest.json',
 	'/',
 	'/offline',
 ];
