@@ -88,3 +88,6 @@ The template also has a service worker installed. This service worker is install
 > Making this template a Progressive Web App.
 
 The public folder also contains a [`manifest.json`](https://github.com/RickGroot/Express-Handlebars-Template/blob/main/public/manifest.json) file. This defines all information to become a progressive web app. Through this file the application could be installed onto your own device.
+
+# Licence
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
