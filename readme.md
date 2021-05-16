@@ -50,7 +50,7 @@ This script is used to activate multiple other scripts that watch changes to cli
 The two left scripts above use the chikidar package. Chokidar watches all CSS or JS files, and when something is changed it will run the build script (right command) to compile everything and build the application with updated client-side code.
 
 ## Server folder
-> Folder that contains server-side code, to split up `app.js`.
+> Folder that contains server-side code, to split up app.js.
 
 The folder [`server`](https://github.com/RickGroot/Express-Handlebars-Template/tree/main/server) contains all extra files that run server-side, in this case only including [`render.js`](https://github.com/RickGroot/Express-Handlebars-Template/blob/main/server/render.js). This folder coud be seen as an extention to the [`app.js`](https://github.com/RickGroot/Express-Handlebars-Template/blob/main/app.js) file, and can contain multiple files which helps maintaining overview in your server-side code.
 
