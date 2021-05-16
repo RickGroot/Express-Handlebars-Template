@@ -5,7 +5,7 @@ function home(req, res) {
 }
 
 function offline(req, res) {
-    res.status(503).render('offline', {
+    res.render('offline', {
         title: 'You are offline'
     })
 }
